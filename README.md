@@ -1,4 +1,4 @@
 scales
 ======
 
-HTML Pattern/Page Generation with PHP
+CSS boilerplate library for text/form elements
