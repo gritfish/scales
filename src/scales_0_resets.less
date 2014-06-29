@@ -172,9 +172,6 @@ select{
     text-overflow: '';
 	background:none;
 }
-select{
-	background: @buttonBackground url(../images/select.png) right no-repeat;
-}
 input[type=button],
 input[type=submit],
 button,
@@ -196,6 +193,9 @@ select{
 
 	display: block;
     float: left;
+}
+select{
+	background: @buttonBackground url(../images/select.png) right no-repeat;
 }
 input[type=button]:hover,
 input[type=submit]:hover,
@@ -269,7 +269,7 @@ textarea{
 }
 p.label{
 	float:left;
-	height:@formElementHeight;
+	min-height:@formElementHeight;
 	line-height: @formElementHeight;
 	margin:0px;
 }
